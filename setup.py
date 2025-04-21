@@ -8,7 +8,7 @@ with open(directory / "README.md", encoding="utf-8") as f:
 
 
 setup(name="spaghetti-code-zen",
-      version="1.1.0",
+      version="1.2.0",
       author="u2084511felix & osinmv",
       license="MIT",
       long_description=long_description,
@@ -20,5 +20,5 @@ setup(name="spaghetti-code-zen",
       ],
       install_requires=[],
       python_requires='>=3.10',
-      include_package_data=False
+      include_package_data=True
 )
